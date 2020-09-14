@@ -4,6 +4,10 @@ set -e
 
 P10K_CONFIG_URI=$1
 
+if [ -f ~/.oh-my-zsh ]; then
+  rm -f ~/.oh-my-zsh
+fi
+
 # Install Oh My Zsh!
 curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -o - | zsh
 
