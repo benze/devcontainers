@@ -1,6 +1,7 @@
 #!/bin/sh
 
 set -e
+set -x
 
 P10K_CONFIG_URI=$1
 
