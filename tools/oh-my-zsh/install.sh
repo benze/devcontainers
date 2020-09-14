@@ -5,8 +5,8 @@ set -x
 
 P10K_CONFIG_URI=$1
 
-if [ -f ~/.oh-my-zsh ]; then
-  rm -f ~/.oh-my-zsh
+if [ -e ~/.oh-my-zsh ]; then
+  rm -rf ~/.oh-my-zsh
 fi
 
 # Install Oh My Zsh!
