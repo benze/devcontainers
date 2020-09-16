@@ -19,7 +19,7 @@ curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/instal
 ZSH_CUSTOM_THEMES=~/.oh-my-zsh/custom/themes
 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM_THEMES}/powerlevel10k/
-# echo "
+echo "
 # Enable powerlevel10k theme
 source \"${ZSH_CUSTOM_THEMES}/powerlevel10k/powerlevel10k.zsh-theme\"
 
